@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-   
-  <div class="nav-bar">
 
-      <div class="first-nav-item"></div>
-      <div><a href="../index.html">Home</a></div>
-      <div><a href="about.html">About me</a></div>
-      <div class="current"><a href="project.html">My Projects</a></div>
-      <div><a href="skill.html">Skills</a></div>
-      <div class="last-nav-item"><a href="contact.html">Contact</a></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+
+  <div class="nav-bar">
+    <div class="first-nav-item"></div>
+    <div><a href="../index.html">Home</a></div>
+    <div><a href="about.html">About me</a></div>
+    <div><a href="project.html">My Projects</a></div>
+    <div><a href="skill.html">Skills</a></div>
+    <div><a href="contact.html">Contact</a></div>
+    <div class="last-nav-item">
+      <button id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
   </div>
-   
+
+
+  <section class="project-hero">
+    <h1>My Projects</h1>
+    <p>Here are some of the projects I have worked on recently.</p>
+  </section>
+
+
+  <section class="projects-list">
+
+
+    <div class="project-card">
+      <h3>Project 1: Snake Game (C++ / SDL2)</h3>
+      <p>
+        A classic Snake game developed using C++ programming language and the SDL2 framework.
+        Features include smooth movement, responsive controls, and score tracking.
+      </p>
+      <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 2: Library Management System (HTML, CSS, JS)</h3>
+      <p>
+        A web-based Library Management System built using HTML, CSS, and JavaScript.
+        Allows users to manage books, track borrowing and returns, and maintain a digital catalog efficiently.
+      </p>
+      <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
+    </div>
+
+
+  </section>
+
+  <script src="../js/script.js"></script>
 </body>
+
 </html>
