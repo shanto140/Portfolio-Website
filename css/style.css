@@ -3,7 +3,7 @@
     margin: 0;
     border: 0;
 }
-a{
+ a{
     text-decoration: none;
     color: white;
 }
@@ -81,6 +81,28 @@ body.light-mode {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.cv{
+  height: 50px;
+  margin-left: 310px;
+}
+
+.cv a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #00bcd4;
+    color: #111;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.cv a:hover {
+    background-color: #00a764;
+}
+
 
 
 /* About me page style */
@@ -339,3 +361,65 @@ margin-right: 70px;
 }
 
 
+
+
+/* CV page style */
+
+body.cv-page {
+    background-color: #f4f4f4; 
+    color: #111;
+}
+
+.cv-page .cv-container {
+    width: 800px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+
+.cv-page .cvHeader {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cv-page .cvHeader h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.cv-page .cvHeader p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.cv-page .cvh2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.cv-page .project {
+    margin-bottom: 10px;
+}
+
+.cv-page h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.cv-page p, 
+.cv-page li {
+    color: #111;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.cv-page ul {
+    padding-left: 20px;
+}
