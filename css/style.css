@@ -366,60 +366,79 @@ margin-right: 70px;
 /* CV page style */
 
 body.cv-page {
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4;
     color: #111;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 .cv-page .cv-container {
-    width: 800px;
-    margin: 60px auto;
-    background: #fff;
-    padding: 40px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    color: #111;
-    font-family: Arial, sans-serif;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 20px auto;
+    padding: 10mm 25mm 25mm 25mm;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.12);
+    line-height: 1.75;
+    box-sizing: border-box;
 }
 
 .cv-page .cvHeader {
     text-align: center;
     border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 14px;
+    margin-bottom: 30px;
 }
 
 .cv-page .cvHeader h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 
 .cv-page .cvHeader p {
-    font-size: 1rem;
+    margin-top: 8px;
+    font-size: 15px;
     color: #333;
 }
 
+
 .cv-page .cvh2 {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    margin-top: 25px;
-    font-size: 18px;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 600;
 }
 
-.cv-page .project {
-    margin-bottom: 10px;
-}
 
-.cv-page h3 {
-    margin-bottom: 5px;
-    font-size: 16px;
-}
-
-.cv-page p, 
-.cv-page li {
-    color: #111;
-    line-height: 1.6;
-    font-size: 1rem;
+.cv-page p {
+    margin-bottom: 12px;
+    font-size: 15px;
 }
 
 .cv-page ul {
-    padding-left: 20px;
+    padding-left: 22px;
+    margin-top: 8px;
 }
+
+.cv-page li {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.cv-page .project {
+    margin-bottom: 20px;
+}
+
+.cv-page h3 {
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.cv-page * {
+    box-sizing: border-box;
+}
+
+
